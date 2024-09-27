@@ -8,9 +8,9 @@ print ("Generated new nostr keys")
 print("");
 print("Private keys");
 print("------------")
-print(f"Private key bech32: {private_key.bech32()}")
-print(f"Private key hex: {private_key.hex()}")
-print("------------")
+print(f"**bech32** {private_key.bech32()}")
+print(f"**hex** {private_key.hex()}")
 print("Public keys");
-print(f"Public key bech32: {public_key.bech32()}")
-print(f"Public key hex: {public_key.hex()}")
+print("----");
+print(f"**bech32** {public_key.bech32()}")
+print(f"**hex** {public_key.hex()}")
